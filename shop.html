@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gamble & Grind</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"href="style.css">
+  
+    <style>.hero {
+        background: url('https://via.placeholder.com/1200x500') no-repeat center center;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 80px 20px;
+      }
+      .hero .btn {
+        margin-top: 20px;
+      }
+      .feature-box {
+        background-color: white;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        font-weight: bold;
+      }
+      body {
+        background-color: #f8f9fa;
+      }
+     h7{
+        font-weight: 700;
+     }
+
+      .hover {
+        transform: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .hover:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      }
+      .box{
+        margin-left: 40px;
+      }
+      img{
+        width: 600px
+      }
+      .hover-text::after {
+        content:"This simple guide shows...   (hover for more)";
+        transition: all 1s ease
+      }
+      .hover-text:hover::after{
+        content: "This simple guide shows how to become the best poker player you could be"
+      }
+      .blackhover-text::after {
+        content:"This simple guide shows...   (hover for more)";
+        transition: all 1s ease
+      }
+      .blackhover-text:hover::after{
+        content: "This simple guide shows how to become the best poker player you could be"
+      }
+      </style>
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand text-danger fw-bold" href="#">Gamble & Grind</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex">
+        <a href="signup.html" class="btn btn-danger me-2">JOIN</a>
+        <a href="login.html" class="btn btn-outline-primary">LOGIN</a>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <div class="bg-light py-2 border-bottom">
+    <div class="container d-flex flex-wrap justify-content-center gap-3">
+      <a href="index.html" class="text-dark fw-bold text-decoration-none">HOME</a>
+      <a href="class.html" class="text-dark fw-bold text-decoration-none">CLASSES</a>
+      <a href="testimonies.html" class="text-dark fw-bold text-decoration-none">TESTIMONIES</a>
+      <a href="shop.html" class="text-dark fw-bold text-decoration-none">SHOP</a>
+      <a href="#" class="text-dark fw-bold text-decoration-none">CONTACT</a>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#" >G&G Shop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <form class="d-flex me-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+      <a href="#" class="btn btn-outline-secondary">View Cart</a>
+    </div>
+  </nav>
+  <section class="container mt-4">
+    <h2>Bundles</h2>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://atlanticbehavioralhealth.com/wp-content/uploads/2024/04/roulette-table-gambling-addicction.webp" class="card-img-top" alt="Bundle 1">
+          <div class="card-body">
+            <h5 class="card-title">Blackjack Bundle</h5>
+            <p class="card-text">
+                $399.99
+                <br>
+                <br>
+                Includes The AceVision X-Ray Glasses, The Card Whisperer Earpiece and The Pocket Card Cloner.
+                 Everything youd need to ensure you win that game of Blackjack.</p>
+            <a href="#" class="btn btn-primary">View Bundle</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://atlanticbehavioralhealth.com/wp-content/uploads/2024/04/roulette-table-gambling-addicction.webp" class="card-img-top" alt="Bundle 1">
+          <div class="card-body">
+            <h5 class="card-title">Beginer Bundle</h5>
+            <p class="card-text">
+                $189.99
+                <br>
+                <br>
+                Includes Loaded Dice Pro Kit and Remote-Controlled Chip Magnet</p>
+            <a href="#" class="btn btn-primary">View Bundle</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://atlanticbehavioralhealth.com/wp-content/uploads/2024/04/roulette-table-gambling-addicction.webp" class="card-img-top" alt="Bundle 1">
+          <div class="card-body">
+            <h5 class="card-title">G&G Special</h5>
+            <p class="card-text">
+                $699.99
+                <br>
+                <br>
+               Includes every Item sold by G&G to ensure you're ready, for any and everything.
+            </p>
+            <a href="#" class="btn btn-primary">View Bundle</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+  <section class="container mt-5">
+    <h2>Shop Items</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+      <!-- Item Card -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://spirit.scene7.com/is/image/Spirit/01258904-a?wid=640&hei=640&fmt=webp" class="card-img-top" alt="Item 1">
+          <div class="card-body">
+            <h5 class="card-title">AceVision X-Ray Glasses</h5>
+            <p class="card-text">$149.99</p>
+            <p>Tired of playing blind? With AceVision, you’ll “see” what’s coming—literally. 
+                These x-ray glasses let you peer through cards like a card-counting superhero. 
+                </p>
+               
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://m.media-amazon.com/images/I/61O9wD4S9fL.jpg" class="card-img-top" alt="Item 1">
+          <div class="card-body">
+            <h5 class="card-title">Loaded Dice Pro Kit</h5>
+            <p class="card-text">89.99</p>
+            <p>Why roll the dice when you can control the outcome? 
+                These suspiciously perfect dice claim to have secret internal weights that magically land on your lucky number. 
+                Just don’t let the pit boss catch your “pro moves.”</p>
+               
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRjQ4gdZp9qDl-eS77nvuOiunVfWPUMvDbw&s" class="card-img-top" alt="Item 1">
+          <div class="card-body">
+            <h5 class="card-title"> Remote-Controlled Chip Magnet</h5>
+            <p class="card-text">$129.99</p>
+            <p>Looks like an innocent wristband—but press a hidden button and nearby chips subtly slide into your stack. Or so we say. 
+                Just don’t blame us when security tackles you mid-shuffle.
+                 Includes fake batteries and zero real magnetic power.
+            
+            </p>
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.cnet.com/a/img/resize/2c7654925bb74bfc782c2966c0e697be36fd8906/hub/2022/03/30/72bcc111-3822-44f7-ae23-5dcc4de830ce/mojo-vision-ar-contact-lens-28.jpg?auto=webp&fit=crop&height=675&width=1200" class="card-img-top" alt="Item 1">
+          <div class="card-body">
+            <h5 class="card-title">Invisible Ink Contact Lenses</h5>
+            <p class="card-text">$199.99</p>
+            <p>Scan the table with eyes that see the unseen! 
+                These contacts allegedly let you see invisible ink markings on cards (if you can find some that exist).
+                 For the stylish, shady player who wants to look high-tech and mysterious.</p>
+            
+            
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.resound.com/-/media/resound/resound-us/images/products/hearing-aids/resoundomnia/rs_omnia_bte_77_black_thintube.ashx?w=1600&usecustomfunctions=1&centercrop=1&hash=B1E7AF18488E633261E5AB0AC516A2F7" class="card-img-top" alt="Item 1">
+          <div class="card-body">
+            <h5 class="card-title">The Card Whisperer Earpiece</h5>
+            <p class="card-text">$59.99</p>
+            <p>This sleek earpiece streams information to you so your next card is based on nothing but confidence. 
+                Be tuned in with the voice of a game master whispering “Hit” or “Stand.”</p>
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://c1.neweggimages.com/productimage/nb640/VDRCD2303300VVFML24.jpg" class="card-img-top" alt="Item 1">
+          <div class="card-body">
+            <h5 class="card-title">Pocket Card Cloner</h5>
+            <p class="card-text">$249.99</p>
+            <p>Slide your card in your pocket, and the machine clones it for instant use later.
+                 Includes blinking lights and dramatic sound effects, also having a toggleble "silent mode". 
+                Impress your friends or confuse the casino.
+                Battery pack sold seperatly 
+            
+            </p>
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+   
+      
+      
+    </div>
+  </section>
+  <br>
+
+
+
+
+         <center><footer
+            class="footer" style=" font-size: xx-small;"> At Gamble & Grind, we take immense pride in providing comprehensive, meticulously curated gambling guides, tips, strategies, and assorted content designed to enhance the general entertainment experience for our audience; however, it must be explicitly, unequivocally, and emphatically stated—preferably in bold, flashing neon letters (metaphorically speaking)—that we, the creators, operators, contributors, and stakeholders of Gamble & Grind, assume absolutely no responsibility, legal, financial, emotional, metaphysical, or otherwise, for any losses, damages, disappointments, tears, broken dreams, or vanishing bank accounts that may result directly, indirectly, accidentally, or through a chain of events so convoluted it would confuse even the most astute philosophers, from the use or misuse (intentional or not) of the material provided on our site, platform, or any other affiliated medium. Whether you followed our blackjack strategy, ignored our sports betting tips, misinterpreted a poker bluffing diagram, or simply had a stroke of profoundly terrible luck reminiscent of a cursed leprechaun on Friday the 13th, it remains your sole and sovereign responsibility to engage in gambling activities with full awareness of the risks involved, including but not limited to financial loss, existential crisis, or having to explain to your partner why the rent money is now in the hands of a blackjack dealer named Frankie. In summation—though this sentence has wandered far from its grammatical home—any action taken based on our guides is entirely your decision, made of your own volition, under your own judgment, in accordance with your own tolerance for financial peril, and we sincerely recommend that you only gamble what you can afford to lose, because Gamble & Grind is here to entertain and educate, not to serve as your financial advisor, spiritual guide, or miracle-working money printer.>
+          </footer></center> 
