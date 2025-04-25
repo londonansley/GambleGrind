@@ -15,6 +15,38 @@
         text-align: center;
         padding: 80px 20px;
       }
+
+      .link-box {
+      position: relative;
+      height: 250px;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .link-box:hover {
+      transform: scale(1.03);
+    }
+
+    .link-box::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5); /* dark overlay */
+    }
+
+    .link-box h3 {
+      position: relative;
+      z-index: 1;
+    }
       .hero .btn {
         margin-top: 20px;
       }
@@ -53,7 +85,7 @@
       <a href="class.html" class="text-dark fw-bold text-decoration-none">CLASSES</a>
       <a href="testimonies.html" class="text-dark fw-bold text-decoration-none">TESTIMONIES</a>
       <a href="shop.html" class="text-dark fw-bold text-decoration-none">SHOP</a>
-      <a href="#" class="text-dark fw-bold text-decoration-none">CONTACT</a>
+      <a href="contact.html" class="text-dark fw-bold text-decoration-none">CONTACT</a>
     </div>
   </div>
 
@@ -70,19 +102,27 @@
   <br>
 
  
-  <div class="container my-5">
+  <div class="container mt-5">
     <div class="row g-4">
-      <div class="col-md-6">
-        <div class="feature-box" style="background-image: url('https://vamospanish.com/wp-content/uploads/top-casinos-in-Argentina-1024x585.jpg'); background-size: cover; background-position: center; height: 500px;">SPORTS, ESPORTS & LIVE BETTING</div>
+      <div class="col-md-6 col-lg-3">
+        <a href="class.html" class="link-box" style="background-image: url('https://roarcdn.fitting-solutions.at/borgata/casino/en/blog/wp-content/uploads/2023/05/25021417/Header-A-roulette-dealer-about-to-start-a-game-of-roulette-Roulette-dealer.jpg?lossy=1&ssl=1');">
+          <h3>Schedule Your First Class</h3>
+        </a>
       </div>
-      <div class="col-md-6">
-        <div class="feature-box">100s OF CASINO GAMES</div>
+      <div class="col-md-6 col-lg-3">
+        <a href="shop.html" class="link-box" style="background-image: url('https://m.media-amazon.com/images/I/71IXKlSCVsL.jpg');">
+          <h3>Shop</h3>
+        </a>
       </div>
-      <div class="col-md-6">
-        <div class="feature-box">REAL-TIME PLAY WITH LIVE DEALERS</div>
+      <div class="col-md-6 col-lg-3">
+        <a href="testimonies.html" class="link-box" style="background-image: url('https://t4.ftcdn.net/jpg/02/81/52/17/360_F_281521717_2d2bngyNTHI7FBeWd5MBx2yfzjeiVE7N.jpg');">
+          <h3>Testimonials</h3>
+        </a>
       </div>
-      <div class="col-md-6">
-        <div class="feature-box">THREE MUST-DROP JACKPOTS</div>
+      <div class="col-md-6 col-lg-3">
+        <a href="contact.html" class="link-box" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4foaR5RC28hPEBq2FQ7wv4kfZbspfXH-HeU4S4znxo6dwEBRILQJKQIjmK7XX22faus&usqp=CAU');">
+          <h3>Contact</h3>
+        </a>
       </div>
     </div>
   </div>
